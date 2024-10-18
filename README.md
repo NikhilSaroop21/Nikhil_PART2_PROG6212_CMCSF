@@ -134,3 +134,15 @@ The Contract Monthly Claim System (CMCS)** provides a comprehensive solution for
 By streamlining the process of claim submission, review, and approval, the system promotes efficiency, transparency, and accountability. With its user-centric design and role-specific features,
 CMCS ensures that all users can perform their tasks effectively.  Through hands-on interaction with the system, users gain practical experience in .NET Core development and learn to apply best practices in software design. 
 The CMCS not only simplifies administrative processes but also equips users with the skills needed to tackle real-world challenges in the ever-evolving field of software development.
+
+
+
+
+
+// code attribution // W3schools // https://www.w3schools.com/cs/index.php
+
+// code attribution //Microsoft //https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started
+
+// code attribution //Microsoft //https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-dotnet-get-started?tabs=azure-ad
+
+// code attribution //Bootswatch //https://bootswatch.com/
