@@ -28,6 +28,17 @@ public class ClaimsController : Controller
         return View();
     }
 
+
+
+
+
+
+
+
+
+
+
+
  
     [HttpPost]
     public async Task<IActionResult> SubmitClaim(Claim claim, IFormFile document)
@@ -69,6 +80,11 @@ public class ClaimsController : Controller
     }
 
     
+
+
+
+
+
 
     public IActionResult ClaimSubmitted()
     {

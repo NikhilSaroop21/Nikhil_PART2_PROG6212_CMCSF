@@ -13,10 +13,27 @@ namespace Nikhil_PART2_PROG6212_CMCSF.Controllers
             _logger = logger;
         }
 
+
+
+
+
+
+
+        // This method handles HTTP requests to the 'Index' action of the controller.
         public IActionResult Index()
         {
+            // Returns the 'Index' view to be rendered and displayed in the browser.
             return View();
         }
+
+
+
+
+
+
+
+
+
 
         public IActionResult Privacy()
         {

@@ -16,17 +16,40 @@ namespace Nikhil_PART2_PROG6212_CMCSF.Controllers
         }
 
 
+
+
+
+
+
+        // This action method handles HTTP requests to the 'Index' action of the controller.
         public IActionResult Index()
         {
+            // Retrieves all roles from the Role Manager and stores them in the 'roles' variable.
             var roles = _roleManager.Roles;
+
+            // Passes the 'roles' data to the 'Index' view for rendering.
             return View(roles);
         }
 
-        [HttpGet]
-        public IActionResult Create() 
-        { 
-            return View(); 
+
+
+
+
+
+        // This action method handles GET requests to the 'Create' action of the controller.
+        [HttpGet] // Specifies that this method responds only to HTTP GET requests.
+        public IActionResult Create()
+        {
+            // Returns the 'Create' view to the user, typically rendering a form for data input.
+            return View();
         }
+
+
+
+
+
+
+
 
         [HttpPost]
         public async Task<IActionResult> Create(IdentityRole model)
