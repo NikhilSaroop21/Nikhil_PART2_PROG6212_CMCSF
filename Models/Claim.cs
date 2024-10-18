@@ -36,3 +36,10 @@ namespace Nikhil_PART2_PROG6212_CMCSF.Models // Defining the namespace for the p
         public string? DocumentPath { get; set; } // Allows null to account for cases where the document might not be uploaded initially.
     }
 }
+// code attribution // W3schools // https://www.w3schools.com/cs/index.php
+
+// code attribution //Microsoft //https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started
+
+// code attribution //Microsoft //https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-dotnet-get-started?tabs=azure-ad
+
+// code attribution //Bootswatch //https://bootswatch.com/
