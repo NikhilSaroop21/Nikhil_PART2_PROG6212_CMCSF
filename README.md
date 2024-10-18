@@ -57,7 +57,7 @@ If there are issues or discrepancies with a claim, such as missing documents or 
 the claim. The system provides an option to leave feedback, which is visible to the lecturer. This feedback helps the lecturer understand what
 needs to be corrected before resubmitting the claim. Rejected claims are marked **Rejected**, promoting accountability and continuous improvement.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --Technical Overview
 The CMCS is built using **ASP.NET Core MVC**, a powerful framework for developing modern web applications. It leverages C# for back-end functionality, 
