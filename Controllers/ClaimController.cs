@@ -145,7 +145,7 @@ public class ClaimsController : Controller
         return RedirectToAction("ViewPendingClaims");
     }
 
-    [Authorize(Roles = "Co-ordinator,Manager,Lecturer")]
+    [Authorize(Roles = "Lecturer")]
 
     [HttpGet]
     public async Task<IActionResult> TrackClaims()
